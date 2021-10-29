@@ -1,0 +1,37 @@
+body {
+    padding: 20px;
+    /* color: #332182; */
+  }
+
+.flex__Container {
+    display:flex;
+    flex-wrap:wrap; /* this */
+    gap:1px;
+  }
+  .flex__Container .item {
+    flex:max(600px, 100%/2 - 20px); /* and this */
+    background:#40424a;
+    color: #fff;
+  }
+  ul {
+    display:flex;
+    flex-wrap:wrap; /* this */
+    max-width: 100%;
+    justify-content: left;
+  }
+  ul li {
+    
+    list-style-type: none;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 6px;
+    min-width: 100px;
+    max-width: 100px;
+    flex: 1 1 100px;
+    margin: 2px;
+
+  }
+  
+  ul li a {
+    text-decoration: none;
+  }
